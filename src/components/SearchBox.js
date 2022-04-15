@@ -1,10 +1,11 @@
 import React, { useContext } from 'react'
 import { AuthContext } from '../auth/AuthContext'
+import { ChatContext } from '../context/chat/ChatContext';
+import { types } from '../types/types';
 
 export const SearchBox = () => {
 
    const {auth, logout} = useContext(AuthContext);
-
 
   return (
     <div className="headind_srch">

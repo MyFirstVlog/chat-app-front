@@ -59,8 +59,6 @@ export const LoginPage = () => {
 			})
 		}
 
-		console.log(respLogin)
-
 		
 		}
 	const todoOk = () => {

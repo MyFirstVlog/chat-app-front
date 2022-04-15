@@ -28,8 +28,6 @@ export const RegisterPage = () => {
 
 		const resp = await register(name, email, password);
 
-		console.log({resp});
-
 		if(typeof resp === 'boolean') return;
 
 		if(typeof resp === 'string'){
